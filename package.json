@@ -1,6 +1,6 @@
 {
-  "homepage": "https://Mint.github.io/app_port",
   "name": "personal-portfolio",
+  "homepage": "https://Mint.github.io/app_port",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
