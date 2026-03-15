@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import resume from "../assets/files/RESUME_Naphat.pdf";
+import transcript from "../assets/files/TRANSCRIPT_Naphat.pdf";
 
 export const About = () => {
   return (
@@ -42,7 +43,7 @@ export const About = () => {
                     </a>
 
                     <a
-                      href="src/assets/files/TRANSCRIPT_Naphat.pdf"
+                      href={transcript}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="about-btn"
