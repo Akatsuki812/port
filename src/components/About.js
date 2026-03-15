@@ -68,8 +68,8 @@ export const About = () => {
                     <h4>Quick Info</h4>
 
                     <p>📍 Thailand</p>
-                    <p>💻 Interested in AI & Development</p>
-                    <p>🚀 Passionate about building new things</p>
+                    <p>💻 Interested in software development</p>
+                    <p>🚀 Like building small projects</p>
                   </div>
                 </div>
               )}

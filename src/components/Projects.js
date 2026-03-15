@@ -11,7 +11,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "Smart Solar IoT System",
-      description: "Design & Development",
+      description: "Hardware Assembly & IoT Integration",
       imgUrl: projImg1,
     },
     {
@@ -41,11 +41,8 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Projects Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an
-                    unknown printer took a galley of type and scrambled it to
-                    make a type specimen book.
+                    Here are some of the projects I have developed, including
+                    IoT systems, web applications, and user interface designs.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -55,12 +52,6 @@ export const Projects = () => {
                     >
                       <Nav.Item>
                         <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -77,15 +68,6 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="section">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="third">
                         <p>
                           Lorem ipsum dolor sit amet consectetur adipisicing
                           elit. Cumque quam, quod neque provident velit, rem
